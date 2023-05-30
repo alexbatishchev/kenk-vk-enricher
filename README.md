@@ -25,6 +25,7 @@
 * 1.2 добавлена подстановка картинок пользователя в дамп сообщений стены
 * 1.3 файл скрипта переименован в kenk-vk-enricher.ps1. Добавлена закачка видео в переписку и дамп стены через YT-DLP. Добавлена закачка видео в дампы альбомов видео (Профиль-Видео)
 * 1.4 добавлена закачка видео с кредами через куки браузера и закачка файлов, приложенных в дамп как аттачменты
+* 1.5 добавлено сохранение идентификаторов видео для дедупликации хранилища видеофайлов
 
 ## English 
 You can get dump of your vk.com profile via https://vk.com/data_protection, but archive will not contain media - instead of this, html files in archive using links to original media at VK's server
@@ -53,3 +54,4 @@ Fixed folder contains all original data, but
 * 1.2 user pictres at wall's posts dump added
 * 1.3 file renamed to kenk-vk-enricher.ps1. Added downloading of video to dialogs and wall via YT-DLP. Added downloading of video albums
 * 1.4 added downloading video with browser cookies and downloading attached files
+* 1.5 added cashing of video id's to deduplicate storage
