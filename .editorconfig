@@ -1,0 +1,8 @@
+# https://editorconfig.org
+root = true
+
+# Скрипты: UTF-16 LE с BOM (FF FE). Без BOM PowerShell 5.1 часто ломает разбор.
+[*.ps1]
+charset = utf-16le
+end_of_line = crlf
+insert_final_newline = true
